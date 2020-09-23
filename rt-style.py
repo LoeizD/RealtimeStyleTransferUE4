@@ -45,7 +45,7 @@ def timeDiff( msg = '' ):
 
 while 1:
   lastTime = startTime = time_ms()
-  res = client.request('vget /camera/0/normal png')
+  res = client.request('vget /camera/0/lit png') # lit can be changed to normal
   timeDiff( 'ue4 req' )
   res = np.frombuffer(res, np.uint8)
   content_image = cv2.imdecode(res, -1)
