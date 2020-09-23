@@ -124,3 +124,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .vscode/settings.json
+RealisticRendering-Win-0.3.10/RealisticRendering/WindowsNoEditor/RealisticRendering/Saved/Config/CrashReportClient/*
